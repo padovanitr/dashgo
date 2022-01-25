@@ -21,13 +21,13 @@ const options = {
         enabled: false,
     },
     stroke: {
-        curve: "smooth"
+        curve: "smooth" as "smooth"
     },
     tooltip: {
         enabled: false
     },
     xaxis: {
-        type: "datetime",
+        type: "datetime" as "datetime",
         axisBorder: {
             color: theme.colors.gray[600]
         },
