@@ -6,7 +6,6 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { Input } from "../components/Form/Input";
 import { Logo } from "../components/Header/Logo";
 
-
 interface SignInFormProps {
   email: string;
   password: string;
